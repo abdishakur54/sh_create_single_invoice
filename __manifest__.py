@@ -3,9 +3,9 @@
 
 {
     'name': "Create Single Invoice For Multiple Sale Orders",
-    'author': 'Softhealer Technologies',
-    'website': 'https://www.softhealer.com',
-    "support": "support@softhealer.com",
+    'author': 'Miig Solution',
+    'website': 'https://www.miigsolution.so',
+    "support": "support@miigsolution.so",
     'category': 'Accounting',
     'version': '16.0.1',
     "license": "OPL-1",
