@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_create_single_invoice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.1alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-16 07:40+0000\n"
+"PO-Revision-Date: 2021-09-16 07:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_create_single_invoice
+#: model_terms:ir.ui.view,arch_db:sh_create_single_invoice.view_single_invoice_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__confirmation_message
+msgid "Confirmation Message"
+msgstr "确认消息"
+
+#. module: sh_create_single_invoice
+#: model:ir.actions.server,name:sh_create_single_invoice.model_sh_single_invoice_wizard_action_create_single_invoice
+msgid "Create Single Invoice"
+msgstr "创建单一发票"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__create_uid
+msgid "Created by"
+msgstr "由...制作"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard____last_update
+msgid "Last Modified on"
+msgstr "最后修改了"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__write_date
+msgid "Last Updated on"
+msgstr "上次更新了"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__sale_order_id
+msgid "Sale Order"
+msgstr "销售订单"
+
+#. module: sh_create_single_invoice
+#: model:ir.model.fields,field_description:sh_create_single_invoice.field_sh_single_invoice_wizard__sale_order_ids
+msgid "Sale Orders"
+msgstr "销售订单"
+
+#. module: sh_create_single_invoice
+#: model:ir.model,name:sh_create_single_invoice.model_sh_single_invoice_wizard
+msgid "Single Invoice Wizard"
+msgstr "单一发票向导"
+
+#. module: sh_create_single_invoice
+#: model_terms:ir.ui.view,arch_db:sh_create_single_invoice.sh_inherit_account_move_form_view
+msgid "Source Document"
+msgstr "源文件"
+
+#. module: sh_create_single_invoice
+#: code:addons/sh_create_single_invoice/wizard/create_single_invoice_wizard.py:0
+#, python-format
+msgid ""
+"There is no invoiceable line. If a product has a Delivered quantities "
+"invoicing policy, please make sure that a quantity has been delivered."
+msgstr ""
+"没有可乐线。如果产品具有交付量"
+"发票政策，请确保数量已提供。"
+
+#. module: sh_create_single_invoice
+#: model_terms:ir.ui.view,arch_db:sh_create_single_invoice.view_single_invoice_wizard
+msgid "Yes"
+msgstr "是的"

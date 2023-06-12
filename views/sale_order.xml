@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="model_sh_single_invoice_wizard_action_create_single_invoice" model="ir.actions.server">
+        <field name="name">Create Single Invoice</field>
+        <field name="model_id" ref="sh_create_single_invoice.model_sh_single_invoice_wizard"/>
+        <field name="binding_model_id" ref="sale.model_sale_order"/>
+        <field name="state">code</field>
+        <field name="binding_view_types">list</field>
+        <field name="code"> action = model.create_single_invoice() </field>
+    </record>
+
+    <record id="sh_inherit_account_move_form_view" model="ir.ui.view">
+        <field name="name">account.move.inherit.view.form</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form"/>
+        <field name="arch" type="xml">
+            <field name="invoice_origin" position="replace">
+                <field name="invoice_origin" string="Source Document" force_save="1" />
+            </field>
+        </field>
+    </record>
+</odoo>
